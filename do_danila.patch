@@ -1,0 +1,28 @@
+Index: SortWaterPuzzle_console/Views/WinWindow.xaml.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/SortWaterPuzzle_console/Views/WinWindow.xaml.cs b/SortWaterPuzzle_console/Views/WinWindow.xaml.cs
+--- a/SortWaterPuzzle_console/Views/WinWindow.xaml.cs	(date 1749300796275)
++++ b/SortWaterPuzzle_console/Views/WinWindow.xaml.cs
+@@ -1,15 +1,6 @@
+-using Avalonia.Controls;
+-using Avalonia.Markup.Xaml;
+-using SortWaterPuzzle_console.ViewModels;
++namespace SortWaterPuzzle_console.Views;
+ 
+-namespace SortWaterPuzzle_console.Views
++public class WinWindow_xaml
+ {
+-    public partial class WinWindow_xaml : Window
+-    {
+-        public WinWindow_xaml()
+-        {
+-            InitializeComponent();
+-            DataContext = new MainWindowViewModel();
+-        }
+-    }
++    
+ }
+\ No newline at end of file

@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+
+    <!-- Включаем компиляцию XAML -->
+    <AvaloniaUseCompiledXaml>true</AvaloniaUseCompiledXaml>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="11.0.6" />
+    <PackageReference Include="Avalonia.Desktop" Version="11.0.6" />
+    <PackageReference Include="Avalonia.Diagnostics" Version="11.0.6" />
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.0" />
+    <PackageReference Include="Avalonia.Themes.Fluent" Version="11.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+  <AvaloniaXaml Include="App.xaml" />
+  <AvaloniaXaml Include="Views/MainWindow.xaml" />
+</ItemGroup>
+
+</Project>
